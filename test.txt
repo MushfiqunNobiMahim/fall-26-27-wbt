@@ -1,1 +1,28 @@
-hello
+Full Name
+Job Title
+Short Adress
+
+Profile picture
+Bio:
+
+Social Links:
+Linkedin
+Github
+
+Copyright
+
+education.html:
+    University Icon
+    University Name
+    Degree Name
+    Relevant Courses
+
+    HSC College Icon
+    HSC College Name
+    Stream
+    Relevant Subjects
+
+    SSC School Icon
+    SSC School Name
+    Stream
+    Relevant Subjects
