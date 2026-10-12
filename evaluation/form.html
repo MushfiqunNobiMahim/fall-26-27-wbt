@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <form method="post">
+      <h2>Donor information</h2>
+      <table>
+        <tr>
+          <td><label for="first_name">First Name</label></td>
+          <td>
+            <input type="text" name="first_name" id="first_name" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="last_name">Last Name</label></td>
+          <td>
+            <input type="text" name="last_name" id="last_name" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="company">Company</label></td>
+          <td><input type="text" name="company" id="company" /></td>
+        </tr>
+        <tr>
+          <td><label for="address_1">Address 1</label></td>
+          <td>
+            <input type="text" name="address_1" id="address_1" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address_2">Address 2</label></td>
+          <td><input type="text" name="address_2" id="address_2" /></td>
+        </tr>
+        <tr>
+          <td><label for="city">City</label></td>
+          <td><input type="text" name="city" id="city" required /></td>
+        </tr>
+        <tr>
+          <td><label for="state">State</label></td>
+          <td>
+            <select id="state" name="state">
+              <option>Select a State</option>
+              <option>california</option>
+              <option>florida</option>
+              <option>new york</option>
+              <option>texas</option>
+              <option>chicago</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="zip">Zip Code</label></td>
+          <td><input type="text" name="zip" id="zip" required /></td>
+        </tr>
+        <tr>
+          <td><label for="country">Country</label></td>
+          <td>
+            <select id="country" name="country">
+              <option>Select a Country</option>
+              <option>Bangladesh</option>
+              <option>India</option>
+              <option>USA</option>
+              <option>UK</option>
+              <option>Germany</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="phn">Phone</label></td>
+          <td><input type="text" name="phn" id="phn" /></td>
+        </tr>
+        <tr>
+          <td><label for="fax">FAX</label></td>
+          <td><input type="text" name="fax" id="fax" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="text" name="email" id="email" required /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="don"
+              >Donation Amount
+              <p>(Check a button or type in your amount)</p>
+            </label>
+          </td>
+          <td>
+            <input type="radio" name="don" value="none" />None
+            <input type="radio" name="don" value="50" />$50
+            <input type="radio" name="don" value="75" />$75
+            <input type="radio" name="don" value="100" />$100
+            <input type="radio" name="don" value="250" />$250
+            <input type="radio" name="don" value="other" />Other
+          </td>
+        </tr>
+        <tr>
+          <td><label for="others">Other Amount $</label></td>
+          <td><input type="text" name="others" id="others" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="rec"
+              >Recurring Donation
+              <p>(check if yes)</p></label
+            >
+          </td>
+          <td>
+            <input type="checkbox" name="don" value="yes" />I am intersted in
+            giving on a regular basis
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <label for="credit">Monthly credit Card $ </label
+            ><input type="text" name="credit" id="credit" /><label for="month"
+              >For</label
+            ><input type="text" name="month" id="month" /> Months
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
